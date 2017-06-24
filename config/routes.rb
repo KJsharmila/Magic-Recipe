@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   get 'recipe/index'
   root 'recipe#index'
-
+resources :recipes
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
